@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class AccountTests {
 
     @Test
-    public void depositShouldIncreaseBalanceWhenPositiveAmount(){
+    public void depositShouldIncreaseBalanceAndDiscountFeelWhenPositiveAmount(){
 
         double amount = 200.0;
         double expectedValue = 196.0;
